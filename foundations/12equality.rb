@@ -30,3 +30,19 @@ p "Hello" != "hello"
 p "Hello".downcase == "hello".downcase
 
 p "123" != 123
+
+
+
+# Less Greater
+
+p 1 <= 5
+p 12 <= 3
+
+p 10 > 5
+p -1 > -5
+p 12 > 20
+
+p 3.13 < 0.3
+
+
+p 8 >= 8
