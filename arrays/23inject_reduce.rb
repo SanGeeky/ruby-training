@@ -1,6 +1,6 @@
 numbers = [10, 20, 30, 40]
 
-#start point
+# 1 -> previous value at beggining
 result = numbers.reduce(1) do |previous, current|
   puts "The previous value is #{previous}"
   puts "The currente value is #{current}"
