@@ -10,3 +10,5 @@ end
 
 pass_control_on_condition { puts "Hi froma block" }
 pass_control_on_condition
+f = Proc.new { puts "Hi Hii as param"}
+pass_control_on_condition &f

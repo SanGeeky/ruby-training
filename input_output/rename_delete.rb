@@ -1,5 +1,6 @@
 # File.rename("novel.txt", "novelita.txt")
 
-if File.exist?("./myFirstFile.txt")
-  File.delete("./myFirstFile.txt")
+if File.exist?("novel.txt")
+  File.rename("novel.txt", "novel1.txt")
+  # File.delete("novel1.txt")
 end
