@@ -13,6 +13,7 @@ puts
 fruits_prices.default = "Whoops! That does not exist here"
 p fruits_prices[:kiwi]
 p fruits_prices[:borojo]
+p fruits_prices.fetch(:tangelo) #"Raise error when does not exist"
 
 
 

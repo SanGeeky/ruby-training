@@ -18,3 +18,6 @@ p pokemon.sort_by{ |pokemon, type| pokemon }.reverse
 
 p pokemon.sort_by{ |pokemon, type| type }
 p pokemon.sort_by{ |pokemon, type| type }.reverse
+
+
+#Always return a multidimensional array
